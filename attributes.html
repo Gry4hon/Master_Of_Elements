@@ -1,21 +1,72 @@
 <DOCTYPE html>
- <html>
-     <style>
-         img{
-             border: 5px solid #555;
-             border-radius: 2.5px;
+   <html>
+   <style>
+
+   </style>
+
+   <head>
+   </head>
+
+
+   <body>
+      <style>
+         .fonty-class {
+            font-family: Comic Sans MS, Comic Sans;
          }
-     </style>
-    <head>
-    </head>
-    <body style="background-color:thistle">
-        <h1 id="clintpic"><u>Clint's Attributes Contribution: </u></h1>
-        <marquee behavior="alternate" bgcolor="brown" loop="-1" scrollamount="15" width="100%">▼▼▼Image of Me Enjoying Coffee In Japan▼▼▼</marquee>
-        <img src="Clintimage.JPG" width="400" height="250" alt="Coffee">
-        <Form>
+
+         h1 {
+            font-size: 30px;
+            text-align: center;
+            background-color: gray;
+            border-width: 2px;
+            border-color: gold;
+            border-style: double;
+
+         }
+
+         .img-class {
+            border: 5px solid #555;
+            border-radius: 2.5px;
+         }
+      </style>
+      <div id="GriffinsAttributes" class="fonty-class">
+         <Section>
+            <article>
+               <a href="#">
+                  <h1>Griffin's Attributes Examples</h1>
+               </a>
+               <hr>
+               <a href="griffin.html"><img src="" alt="A picture of Griffin">Pic of lead developer</a>
+               <h2>Contibutions</h2>
+               <ul>
+                  <li>Made the framework for the website</li>
+                  <li>Made the GitHub</li>
+                  <li>Converted the GitHub repository into a GitHub page</li>
+               </ul>
+            </article>
+            <article>
+               <h2>Email me stuff</h2>
+               <form action="mailto:griffinpenn@u.boisestate.edu">
+                  <INPUT type="text" size="10" placeholder="Name"><BR>
+                  <INPUT type="email" size="10" placeholder="Email"><BR>
+                  <input type="text" size="10" width="40"><br>
+                  <INPUT type="submit">
+               </form>
+            </article>
+         </Section>
+      </div>
+      <!--This is Griffin's 5 level deep nested tags-->
+      <hr>
+      <div style="background-color:thistle">
+         <h1 id="clintpic"><u>Clint's Attributes Contribution: </u></h1>
+         <marquee behavior="alternate" bgcolor="brown" loop="-1" scrollamount="15" width="100%">▼▼▼Image of Me Enjoying
+            Coffee In Japan▼▼▼</marquee>
+         <img src="Clintimage.JPG" width="400" height="250" alt="Coffee" class="img-class">
+         <Form>
             <input type="text" value="Don't type in here...">
             <input type="button" Value="Submit button?" onclick="alert('WHY PRESS THE BUTTON?!')">
-        </Form>
+         </Form>
+      </div>
+   </body>
 
-    </body>
-</html>
+   </html>
