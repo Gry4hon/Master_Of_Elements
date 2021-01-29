@@ -2,27 +2,26 @@
 <html>
 
 <style>
-    h1{
+    .master-of-elements {
         font-family: Comic Sans MS, Comic Sans;
         border-color: black;
         border-width: 5px;
         border-style: solid;
         background-color: forestgreen;
-        padding: 10px; 
+        padding: 10px;
         text-align: left;
     }
-    ul{
-        
+
+    .body-class {
+
         border: 6px double forestgreen;
         padding: 20px;
         margin: 10px;
         list-style-position: inside;
         text-align: center;
     }
-    a{
-        font-size: 20px;
-    }
-    body{
+
+    .computer-buddy {
         text-align: center;
         font-size: 25px;
     }
@@ -34,19 +33,23 @@
 
 <body>
     <!--Header Section-->
-    <h1>MasterofElements.com</h1>
-    <hr>
-    <div id="links header">
-        <ul>
-            <img src="ComputerkunTransparent.png" alt="Comp-kun our buddy">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="nested.html">Nested Examples</a></li>
-            <li><a href="attributes.html">Attribute Examples</a></li>
-            <li><a href="tags.html">Tag Examples</a></li>
-            <li><a href="griffin.html">Griffin's Page</a></li>
-            <li><a href="jasmine.html">Jasmine's Page</a></li>
-            <li><a href="clint.html">Clint's Page</a></li>
-        </ul>
+    <h1 class="master-of-elements">MasterofElements.com</h1>
+    <div>
+        <button><a href="index.html">Home</a></button>
+        <button><a href="griffin.html">Griffin's Page</a></button>
+        <button><a href="attributes.html">Attributes Page</a></button>
+        <button><a href="tags.html">Tags Page</a></button>
+        <button><a href="nested.html">Nested Page</a></button>
+        <button><a href="clint.html">Clint's Page</a></button>
+        <button><a href="jasmine.html">Jasmine's Page</a></button>
+        <button><a href="thomas.html">Thomas's Page</a></button>
     </div>
+    <hr>
+
+<div class="body-class">
+    <img src="ComputerkunTransparent.png" alt="Comp-kun our buddy" class="computer-buddy">
+
+</div>
 </body>
+
 </html>
